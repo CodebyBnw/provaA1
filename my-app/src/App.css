@@ -1,0 +1,58 @@
+.table-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: inherit;
+}
+
+.custom-table th,
+.custom-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 1em;
+}
+
+.custom-table th {
+    background-color: #f4f4f4;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.form-message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.form-message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.form-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.status-button:hover {
+    background-color: #0056b3;
+}
